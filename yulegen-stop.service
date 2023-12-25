@@ -1,0 +1,6 @@
+[Unit]
+Description=Stop Yulegen by sending SIGINT
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/bash -c "/bin/kill -SIGINT $(pidof yulegen)"

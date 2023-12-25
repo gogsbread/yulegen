@@ -1,3 +1,9 @@
 [submodule "matrix"]
 	path = matrix
 	url = https://github.com/hzeller/rpi-rgb-led-matrix.git
+[submodule "httplib"]
+	path = httplib
+	url = https://github.com/yhirose/cpp-httplib.git
+[submodule "json"]
+	path = json
+	url = https://github.com/nlohmann/json.git

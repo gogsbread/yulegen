@@ -1,0 +1,9 @@
+[Unit]
+Description=Start Yulegen at 5 PM daily
+
+[Timer]
+OnCalendar=*-*-* 17:00:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target

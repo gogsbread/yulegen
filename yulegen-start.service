@@ -1,0 +1,9 @@
+[Unit]
+Description=Start Yulegen and run until interrupted
+
+[Service]
+Type=simple
+EnvironmentFile=/etc/yulegen/yulegen.env
+ExecStart=/usr/local/bin/yulegen --led-pixel-mapper "Rotate:90" --bootstrap-imgs-path /etc/yulegen/bootstrap_imgs
+User=root
+Group=root
