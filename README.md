@@ -8,7 +8,7 @@ Add a festive twist to your Christmas tree with randomly generated GenAI images 
 ## Hardware
 [Tutorial](https://learn.adafruit.com/adafruit-rgb-matrix-plus-real-time-clock-hat-for-raspberry-pi/overview) has all the instructions to setup LED Matrix with HAT. [rpi-rgb-led-matrix](https://github.com/hzeller/rpi-rgb-led-matrix) provides all the libraries and low level functions.
 
-#### My setup
+#### Setup
 - Both Raspberry Pi and Matrix is driven by [Aukey Wall Chargers](https://www.aukey.com/collections/chargers) each powered from a USB port. The Aukey chargers drive sufficient current and voltage for the matrix. Always do the math and add some buffer to avoid flickering.
 - I did not connect the terminal block in HAT to the matrix. This was because my HAT's terminal block was busted and wouldn't drive voltate to the matrix. Instead, I directly connected the spade connector from the matrix to the USB charger. The HAT was driven by whatever power was provided by the Pi which was sufficient.
 ![Power Setup](https://onedrive.live.com/embed?resid=F33E492FF42DEBDD%21439439&authkey=%21AE9fu5LviCxiSBc&width=660)
