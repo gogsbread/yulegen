@@ -3,7 +3,7 @@
 
 Add a festive twist to your Christmas tree with randomly generated GenAI images on a 32x32 LED Matrix. This cheerful display, powered by [Raspberry Pi 4](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/), [Adafruit RGB Matrix HAT](https://www.adafruit.com/product/1484),  [32x32 LED Matrix](https://www.adafruit.com/product/1484) and creatively framed with Lego blocks. Get ready for a bright and merry season! 🎅✨"
 
-[![Matrix Setup](https://img.youtube.com/vi/IKnOzuWmZjo/0.jpg)](https://youtube.com/shorts/IKnOzuWmZjo "Demo")
+[![Matrix Setup](https://img.youtube.com/vi/IKnOzuWmZjo/0.jpg)](https://youtube.com/shorts/7bKkrBihFzk "Demo")
 
 ## Hardware
 [Tutorial](https://learn.adafruit.com/adafruit-rgb-matrix-plus-real-time-clock-hat-for-raspberry-pi/overview) has all the instructions to setup LED Matrix with HAT. [rpi-rgb-led-matrix](https://github.com/hzeller/rpi-rgb-led-matrix) provides all the libraries and low level functions.
